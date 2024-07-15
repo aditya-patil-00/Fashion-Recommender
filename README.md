@@ -27,7 +27,7 @@ Here're some of the project's features:
 <p>1. Clone the project</p>
 
 ```
-  git clone https://github.com/aditya-patil-00/Fashion-Recommender
+git clone https://github.com/aditya-patil-00/Fashion-Recommender
 ```
 
 <p>2. Go to project directory</p>

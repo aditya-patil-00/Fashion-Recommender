@@ -48,13 +48,13 @@ def main():
 
         model_name = 'resnet50'
         n_components = 100  # Number of PCA components
-        pca_model_path = 'pca_model.joblib'
+        pca_model_path = 'src/pca_model.joblib'
 
         # Extract features
         features = extract_save(temp_image_path, model_name, n_components, pca_model_path=pca_model_path)
         
         # Find top 5 similar images
-        csv_file = 'features.csv'  
+        csv_file = 'src/features.csv'  
         top5_ids = similarity(features, csv_file=csv_file)
 
         col1, col2 = st.columns(2)

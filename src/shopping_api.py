@@ -29,7 +29,7 @@ def search_google_shopping(query):
 # Example usage
 def query(img_ids):
     curr_dir = os.getcwd()
-    DATASET_PATH = os.path.join(curr_dir, '..', 'data')
+    DATASET_PATH = os.path.join(curr_dir, 'data')
     # Load the styles.csv dataset
     styles_df = pd.read_csv(os.path.join(DATASET_PATH, 'styles.csv')) 
 

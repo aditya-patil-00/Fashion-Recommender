@@ -3,9 +3,10 @@ from serpapi import GoogleSearch
 import pandas as pd
 from dotenv import load_dotenv
 import csv
+import streamlit as st
 
 load_dotenv()
-API_KEY = os.getenv("SERPAPI_API_KEY")  
+API_KEY = st.secrets("SERPAPI_API_KEY")  
 
 def search_google_shopping(query):
     params = {

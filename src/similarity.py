@@ -32,12 +32,12 @@ def similarity(input_features, csv_file):
     return top5_numeric_ids
 
 # Example usage
-input_features = np.loadtxt('features.txt', delimiter=',')
-input_features = input_features.reshape(1, -1) 
-csv_file = 'features.csv'  
+#input_features = np.loadtxt('features.txt', delimiter=',')
+#input_features = input_features.reshape(1, -1) 
+#csv_file = 'features.csv'  
 
-top5_image_ids = similarity(input_features, csv_file)
-print("Top 5 Image IDs:", top5_image_ids)
+#top5_image_ids = similarity(input_features, csv_file)
+#print("Top 5 Image IDs:", top5_image_ids)
 
 def img_path(img):
     curr_dir = os.getcwd()
@@ -55,4 +55,4 @@ def display_images(top5_image_ids):
         axs[i].axis('off')
     plt.show()
 
-display_images(top5_image_ids)
+#display_images(top5_image_ids)

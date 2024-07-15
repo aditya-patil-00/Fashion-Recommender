@@ -10,7 +10,7 @@
 
 <h2> Features</h2>
 
-Here're some of the project's best features:
+Here're some of the project's features:
 
 *   Image Upload and Resizing: Upload an image of a fashion item which is then resized to 60x80 pixels for uniformity in processing.
 *   Feature Extraction: Utilizes a pre-trained ResNet50 model to extract features from the uploaded image ensuring accurate similarity comparisons.

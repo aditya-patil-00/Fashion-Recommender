@@ -4,12 +4,10 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://imgur.com/a/rPgkU9D" alt="project-screenshot" width="400" height="400/">
+![Alt text](https://imgur.com/Ez5r2Wc)
 
-<img src="https://imgur.com/a/GcLqVPL" alt="project-screenshot" width="400" height="400/">
+![Alt text](https://imgur.com/LIRpELt)
 
-  
-  
 <h2> Features</h2>
 
 Here're some of the project's best features:

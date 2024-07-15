@@ -158,9 +158,9 @@ pca_model_path = 'pca_model.joblib'
 #extract_save(imgs, model_name, n_components, save_path)
 
 # Example usage for a single image
-img = 'shirt_image.jpg'
-image_path = img_path(img)
-single_image_features = extract_save(image_path, model_name, n_components, pca_model_path=pca_model_path)
-print("Extracted features for single image:", single_image_features.shape)
+#img = 'shirt_image.jpg'
+#image_path = img_path(img)
+#single_image_features = extract_save(image_path, model_name, n_components, pca_model_path=pca_model_path)
+#print("Extracted features for single image:", single_image_features.shape)
 #save it in txt file
-np.savetxt('features.txt', single_image_features, delimiter=',')
+#np.savetxt('features.txt', single_image_features, delimiter=',')

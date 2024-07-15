@@ -6,7 +6,7 @@ import csv
 import streamlit as st
 
 load_dotenv()
-API_KEY = st.secrets("SERPAPI_API_KEY")  
+API_KEY = st.secrets["SERPAPI_API_KEY"]
 
 def search_google_shopping(query):
     params = {

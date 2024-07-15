@@ -148,7 +148,7 @@ def get_all_images(folder_path):
     return [os.path.join(folder_path, file) for file in os.listdir(folder_path) if file.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
 # Get paths to all images in DATASET_PATH
-imgs = get_all_images(DATASET_PATH)
+#imgs = get_all_images(DATASET_PATH)
 model_name = 'resnet50'
 n_components = 100  # Number of PCA components
 save_path = 'features.csv'

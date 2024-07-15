@@ -28,7 +28,7 @@ def display_images(top5_image_ids, dataset_path, width=100):
         st.image(image, caption=image_id, width=width)
 
 cwd = os.getcwd()
-DATASET_PATH = os.path.join(cwd, '..', 'data', 'images')
+DATASET_PATH = os.path.join(cwd, 'data', 'images')
 
 # Streamlit app
 def main():

@@ -4,9 +4,9 @@
 
 <h2>Project Screenshots:</h2>
 
-![Alt text](https://imgur.com/Ez5r2Wc)
+![Alt text](https://github.com/aditya-patil-00/Fashion-Recommender/blob/main/data/demo1.png)
 
-![Alt text](https://imgur.com/LIRpELt)
+![Alt text](https://github.com/aditya-patil-00/Fashion-Recommender/blob/main/data/demo2.png)
 
 <h2> Features</h2>
 
